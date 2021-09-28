@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+html {
+  background-color: #000011;
+}
+
+.App {
+  text-align: center;
+  color: white;
+  background-color: #000011;
+  min-height: 100vh;
+}
+
+.brand {
+  font-family: "Lato", sans-serif;
+}
+
+.mono {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h3,
+h4 {
+  font-weight: 200;
+}
+
+a {
+  font-weight: 300;
+}
+
+canvas {
+  outline: none;
+}
+
+.leaflet-container {
+  width: 200px; 
+  height: 200px;
+}
